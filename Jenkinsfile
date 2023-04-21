@@ -10,7 +10,7 @@ pipeline {
     }
     agent none 
     stages {
-        stage ('Buuild image') {
+        stage ('Build image') {
             agent any
             steps {
                 script {
