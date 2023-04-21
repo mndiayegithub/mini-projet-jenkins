@@ -67,6 +67,7 @@ pipeline {
             steps {
                 script {
                     sh '''
+                        echo "Pushing image to Docker hub"
                         docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:$IMAGE_TAG
                         echo 'Push image completed' 
                     '''
@@ -86,7 +87,7 @@ pipeline {
                 steps {
                     script {
                         sh '''
-                            echo "Pushing image to staging"
+                            echo "Pushing image into staging"
                             heroku container:login
                             heroku create $STAGING || echo "project already exists"
                             heroku container:push -a $STAGING web
@@ -107,7 +108,7 @@ pipeline {
                 steps {
                     script {
                         sh '''
-                        echo "Pushing image to production"
+                            echo "Pushing image into production"
                             heroku container:login
                             heroku create $PRODUCTION || echo "project already exists"
                             heroku container:push -a $PRODUCTION web
