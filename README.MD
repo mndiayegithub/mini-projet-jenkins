@@ -19,3 +19,8 @@ All of the site templates I create for [HTML5 UP](https://html5up.net/) are lice
 ... all for free, yo. In exchange, just give HTML5 UP credit for the design and tell your friends about it :)
 
 More info [here](https://html5up.net/license).
+
+
+[![Build Status](https://91fb-94-239-45-50.ngrok-free.app/job/static-website/badge/icon)](https://91fb-94-239-45-50.ngrok-free.app/job/static-website/)
+
+[![Build Status](https://91fb-94-239-45-50.ngrok-free.app/buildStatus/icon?job=static-website)](https://91fb-94-239-45-50.ngrok-free.app/job/static-website/)
