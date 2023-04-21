@@ -1,3 +1,6 @@
+/* import shared library */
+@Library('jenkins-shared-library') _
+
 pipeline {
     environment {
         IMAGE_NAME = "static-website"
