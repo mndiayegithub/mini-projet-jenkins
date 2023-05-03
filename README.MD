@@ -52,7 +52,7 @@ Ce projet a pour but de mettre en pratique les connaissances de mise en place d'
 Le dockerfile présent ci - dessus a été utilisé afin de builder l'image de l'application web statique et la déployer sur un serveur Nginx. Ce Dockerfile utilise une image _`nginx:alpine`_ permettant d'avoir une image buildée très légère n'incluant que le strict nécessaire et ainsi d'améliorer la rapidité de build. Ensuite, l'image buildée est éxecutée sur un conteneur Docker. 
 
 ### Scan image with SNYK
-Un scan de l'image buildée est effectué avec Snyk, un outil d'analyse de sécurité, de vulnérabilités et d'autorémédiation au moment de la construction d'une image Docker. Ce outil permet d'intégrer une démarche DevSecOps.
+Un scan de l'image buildée est effectué avec Snyk, un outil d'analyse de sécurité, de vulnérabilités et d'autorémédiation au moment de la construction d'une image Docker. Cet outil permet d'intégrer une démarche DevSecOps.
  
 ### Test image
 Un test d'acceptance sera effectué sur l'image Docker buildée.
