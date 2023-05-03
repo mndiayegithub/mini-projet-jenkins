@@ -80,7 +80,7 @@ Une notification Slack est envoyé à chaque fois que l'éxecution du pipeline C
  
 ## Aperçu du site 
  
-![apercu_static_website](images/static-website.png "apercu_static_website")
+![apercu_static_website](images/static-website.jpg "apercu_static_website")
  
 ## Technologies utilisées
  
